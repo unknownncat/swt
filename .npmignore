@@ -1,0 +1,12 @@
+# Files not to be published to npm
+.github/
+.gitignore
+.gitattributes
+CONTRIBUTING.md
+CHANGELOG.md
+*.test.*
+tsconfig.json
+*.tsbuildinfo
+src/
+.prettierrc
+.eslintrc

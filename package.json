@@ -1,0 +1,41 @@
+{
+  "name": "@unknownncat/swt",
+  "version": "1.0.0",
+  "description": "A TypeScript wrapper for Baileys WhatsApp API with type-safe exports",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unknownncat/swt.git"
+  },
+  "homepage": "https://github.com/unknownncat/swt#readme",
+  "bugs": {
+    "url": "https://github.com/unknownncat/swt/issues"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "typescript",
+    "api",
+    "wrapper"
+  ],
+  "author": "unknownncat",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {}
+}

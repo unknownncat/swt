@@ -1,0 +1,5 @@
+# Git ignore for the src directory tests
+**/*.test.ts
+**/*.spec.ts
+**/__tests__/
+**/fixtures/
